@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dangeroushobo/iothub/common"
-	"github.com/dangeroushobo/iothub/iotdevice/transport"
-	"github.com/dangeroushobo/iothub/iotservice"
-	"github.com/dangeroushobo/iothub/logger"
+	"github.com/stevebargelt/iothub/common"
+	"github.com/stevebargelt/iothub/iotdevice/transport"
+	"github.com/stevebargelt/iothub/iotservice"
+	"github.com/stevebargelt/iothub/logger"
 )
 
 // ClientOption is a client configuration option.

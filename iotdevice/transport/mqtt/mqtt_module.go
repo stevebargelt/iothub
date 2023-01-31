@@ -8,9 +8,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/dangeroushobo/iothub/common"
-	"github.com/dangeroushobo/iothub/iotdevice/transport"
 	mqtt "github.com/eclipse/paho.mqtt.golang"
+	"github.com/stevebargelt/iothub/common"
+	"github.com/stevebargelt/iothub/iotdevice/transport"
 )
 
 // New returns new Transport transport.

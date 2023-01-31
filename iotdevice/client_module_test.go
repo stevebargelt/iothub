@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dangeroushobo/iothub/iotdevice/iotdevicetest"
-	"github.com/dangeroushobo/iothub/iotdevice/transport/mqtt"
-	"github.com/dangeroushobo/iothub/iotservice"
+	"github.com/stevebargelt/iothub/iotdevice/iotdevicetest"
+	"github.com/stevebargelt/iothub/iotdevice/transport/mqtt"
+	"github.com/stevebargelt/iothub/iotservice"
 )
 
 func newModuleClient(t *testing.T, sc *iotservice.Client) *ModuleClient {

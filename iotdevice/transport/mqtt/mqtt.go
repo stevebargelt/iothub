@@ -13,11 +13,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dangeroushobo/iothub/common"
-	"github.com/dangeroushobo/iothub/iotdevice/transport"
-	"github.com/dangeroushobo/iothub/iotservice"
-	"github.com/dangeroushobo/iothub/logger"
 	mqtt "github.com/eclipse/paho.mqtt.golang"
+	"github.com/stevebargelt/iothub/common"
+	"github.com/stevebargelt/iothub/iotdevice/transport"
+	"github.com/stevebargelt/iothub/iotservice"
+	"github.com/stevebargelt/iothub/logger"
 )
 
 var ErrNotImplemented = errors.New("not implemented")
